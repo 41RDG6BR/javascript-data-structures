@@ -8,3 +8,7 @@ export function defaultToString(item) {
     }
     return item.toString();
 }
+
+export function defaultEquals(item1, item2) {
+    return defaultToString(item1) === defaultToString(item2);
+}
