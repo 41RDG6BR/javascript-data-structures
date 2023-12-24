@@ -12,3 +12,8 @@ export function defaultToString(item) {
 export function defaultEquals(item1, item2) {
     return defaultToString(item1) === defaultToString(item2);
 }
+
+export const Compare = {
+    LESS_THAN: -1,
+    BIGGER_THAN: 1
+};
