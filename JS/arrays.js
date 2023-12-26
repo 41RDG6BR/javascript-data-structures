@@ -207,3 +207,11 @@ function isEven(x) {
  * @type {boolean}
  */
 numbers.every(isEven);
+
+// Iterate with some
+
+/**
+ * Checks if some elements in the array pass a test.
+ * @type {boolean}
+ */
+numbers.some(isEven);
