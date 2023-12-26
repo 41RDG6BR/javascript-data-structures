@@ -493,3 +493,8 @@ console.log(numbers.includes(4,5));
 // Converting array  to a string
 
 console.log(numbers.toString());
+
+// Join
+
+const numbersString = numbers.join('-');
+console.log(numbersString);
