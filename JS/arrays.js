@@ -462,3 +462,11 @@ names.sort((a, b) => a.localeCompare(b));
 const names2 = ['Maève', 'Maeve'];
 console.log(names2.sort((a, b) => a.localeCompare(b)));
 
+// Search
+
+console.log(numbers.indexOf(10));
+console.log(numbers.indexOf(100));
+
+numbers.push(10);
+console.log(numbers.lastIndexOf(10));
+console.log(numbers.lastIndexOf(100));
