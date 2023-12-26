@@ -179,3 +179,15 @@ for (let i = 0; i < matrix3x3x3.length; i++) {
         }
     }
 }
+
+// Reference to array methods
+
+/**
+ * Concatenates arrays.
+ * @type {number[]}
+ */
+const zero = 0;
+const positiveNumbers = [1, 2, 3];
+const negativeNumbers = [-3, -2, -1];
+let numbersResult = negativeNumbers.concat(zero, positiveNumbers);
+
