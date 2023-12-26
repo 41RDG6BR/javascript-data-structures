@@ -199,3 +199,11 @@ let numbersResult = negativeNumbers.concat(zero, positiveNumbers);
 function isEven(x) {
     return x % 2 === 0;
 }
+
+// Iterate with every
+
+/**
+ * Checks if every element in the array passes a test.
+ * @type {boolean}
+ */
+numbers.every(isEven);
