@@ -230,3 +230,9 @@ numbers.forEach(x => console.log(x % 2 === 0));
 const myMap = numbers.map(isEven);
 
 console.log(myMap);
+
+/**
+ * Represents an array of even numbers.
+ * @type {number[]}
+ */
+const evenNumbers = numbers.filter(isEven);
