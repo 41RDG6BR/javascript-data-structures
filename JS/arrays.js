@@ -386,3 +386,36 @@ copyArray.copyWithin(0, 3);
  * @type {number[]}
  */
 numbers.reverse();
+
+/**
+ * Represents the sorted array.
+ * @type {number[]}
+ */
+numbers.sort();
+
+/**
+ * Represents the sorted array in ascending order.
+ * @type {number[]}
+ */
+numbers.sort((a, b) => a - b);
+
+// This function can be written like this
+
+/**
+ * Compares two numbers for sorting.
+ * @param {number} a - The first number.
+ * @param {number} b - The second number.
+ * @returns {number} - A negative number if 'a' comes before 'b', a positive number if 'a' comes after 'b', and 0 if 'a' and 'b' are equal.
+ */
+function compare(a, b) {
+    if (a < b) {
+        return -1;
+    }   
+    if (a > b) {
+        return 1;
+    }
+
+    return 0;
+}
+
+numbers.sort(compare);
