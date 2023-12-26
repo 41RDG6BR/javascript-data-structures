@@ -236,3 +236,9 @@ console.log(myMap);
  * @type {number[]}
  */
 const evenNumbers = numbers.filter(isEven);
+
+/**
+ * Represents the sum of all numbers in the array.
+ * @type {number}
+ */
+numbers.reduce((previous, current) => previous + current);
