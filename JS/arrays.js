@@ -489,3 +489,7 @@ console.log(numbers.includes(20));
 
 let numbers2 = [7,6,5,4,3,2,1];
 console.log(numbers.includes(4,5));
+
+// Converting array  to a string
+
+console.log(numbers.toString());
