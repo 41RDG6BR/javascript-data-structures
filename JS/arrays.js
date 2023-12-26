@@ -342,3 +342,30 @@ let numbers4 = Arrays.of(1, 2, 3, 4, 5, 6);
  * @type {number[]}
  */
 let numbersCopy = Array.of(...numbers4);
+
+// Method fill
+
+/**
+ * Represents an array filled with zeros.
+ * @type {number[]}
+ */
+let numbersCopy1 = Arrays.of(1, 2, 3, 4, 5, 6);
+numbersCopy1.fill(0);
+
+/**
+ * Represents an array with elements filled starting from index 1.
+ * @type {number[]}
+ */
+numbersCopy1.fill(2, 1);
+
+/**
+ * Represents an array with elements filled between indexes 3 and 5.
+ * @type {number[]}
+ */
+numbersCopy1.fill(1, 3, 5);
+
+/**
+ * Represents an array of ones.
+ * @type {number[]}
+ */
+let ones = Array(6).fill(1);
