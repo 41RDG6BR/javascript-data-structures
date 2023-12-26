@@ -242,3 +242,14 @@ const evenNumbers = numbers.filter(isEven);
  * @type {number}
  */
 numbers.reduce((previous, current) => previous + current);
+
+// ECMAScript2015 (ES6 || ES2016)(2015+) - new features for arrays
+
+// ES2015 Introduce for..of
+
+/**
+ * Logs whether each number in the array is even or odd.
+ */
+for (const n of numbers) {
+    console.log(n % 2 === 0 ? 'even' : 'odd');
+}
