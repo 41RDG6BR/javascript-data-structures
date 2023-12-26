@@ -222,3 +222,11 @@ numbers.some(isEven);
  * Executes a provided function once for each array element.
  */
 numbers.forEach(x => console.log(x % 2 === 0));
+
+/**
+ * Represents an array of boolean values indicating whether each number in the array is even.
+ * @type {boolean[]}
+ */
+const myMap = numbers.map(isEven);
+
+console.log(myMap);
