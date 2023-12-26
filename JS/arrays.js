@@ -369,3 +369,12 @@ numbersCopy1.fill(1, 3, 5);
  * @type {number[]}
  */
 let ones = Array(6).fill(1);
+
+// copyWithin
+
+/**
+ * Represents a copy of the array with elements copied within the array.
+ * @type {number[]}
+ */
+let copyArray = [1, 2, 3, 4, 5, 6];
+copyArray.copyWithin(0, 3);
