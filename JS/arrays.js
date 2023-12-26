@@ -102,3 +102,19 @@ Array.prototype.reIndex = function (myArray) {
     console.log(newArray);
     return newArray;
 };
+
+/**
+ * Removes the first position from the array and reindexes.
+ * @returns {Array} - A new array with the first position removed.
+ */
+
+// remove first position manually - not used
+Array.prototype.removeFirstPosition = function () {
+    for (let i = 0; i < this.length; i++) {
+        this[i] = this[i + 1];
+    }
+
+    return this.reIndex(this);
+}
+
+numbers = numbers.removeFirstPosition();
