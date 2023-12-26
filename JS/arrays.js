@@ -118,3 +118,7 @@ Array.prototype.removeFirstPosition = function () {
 }
 
 numbers = numbers.removeFirstPosition();
+
+// Remove first position with method shift
+
+numbers.shift();
