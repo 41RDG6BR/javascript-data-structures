@@ -56,3 +56,8 @@ Array.prototype.insertFirstPosition = function (value) {
 
     this[0] = value;
 }
+
+// Using the unshift method to insert element at the first position of the array
+
+numbers.unshift(-2);
+numbers.unshift(-4, -3);
