@@ -37,3 +37,8 @@ for (let i = 1; i < fibonacci.length; i++) {
 
 numbers[numbers.length] = 10;
 console.log(numbers);
+
+// Adding element to the end of the array with push
+
+numbers.push(11);
+numbers.push(12, 13);
