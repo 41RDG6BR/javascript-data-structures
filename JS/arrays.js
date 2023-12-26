@@ -61,3 +61,9 @@ Array.prototype.insertFirstPosition = function (value) {
 
 numbers.unshift(-2);
 numbers.unshift(-4, -3);
+
+// Removing elements
+// Remove element from the end of the array
+
+numbers.pop();
+
