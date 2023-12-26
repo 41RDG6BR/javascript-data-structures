@@ -378,3 +378,11 @@ let ones = Array(6).fill(1);
  */
 let copyArray = [1, 2, 3, 4, 5, 6];
 copyArray.copyWithin(0, 3);
+
+// ordering elements
+
+/**
+ * Represents the reversed array.
+ * @type {number[]}
+ */
+numbers.reverse();
