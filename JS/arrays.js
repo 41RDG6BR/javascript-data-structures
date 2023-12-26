@@ -269,3 +269,20 @@ console.log(iterator.next().value);
 for (const n of iterator) {
     console.log(n);
 }
+
+// ES2015 also introduces 3 forms to get iterators from array
+// entries, keys & values
+
+/**
+ * Represents an iterator for array entries.
+ * @type {Iterator<[number, number]>}
+ */
+let aEntries = numbers.entries();
+console.log(aEntries.next().value);
+console.log(aEntries.next().value);
+console.log(aEntries.next().value);
+
+aEntries = numbers.entries();
+for (const n of aEntries) {
+    console.log(n);
+}
