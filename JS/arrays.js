@@ -76,3 +76,12 @@ for (let i = 0; i < numbers.length; i++) {
     console.log(numbers[i] = numbers[i + 1]);
 }
 
+/**
+ * Represents an array of numbers.
+ * @type {number[]}
+ */
+
+// Remove element from the first position of the array
+for (let i = 0; i < numbers.length; i++) {
+    numbers[i] = numbers[i + 1];
+}
