@@ -253,3 +253,19 @@ numbers.reduce((previous, current) => previous + current);
 for (const n of numbers) {
     console.log(n % 2 === 0 ? 'even' : 'odd');
 }
+
+// @@iterator
+
+/**
+ * Represents an iterator for the array.
+ * @type {Iterator<number>}
+ */
+let iterator = numbers[Symbol.iterator]();
+console.log(iterator.next().value);
+console.log(iterator.next().value);
+console.log(iterator.next().value);
+console.log(iterator.next().value);
+
+for (const n of iterator) {
+    console.log(n);
+}
