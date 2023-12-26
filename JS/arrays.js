@@ -297,3 +297,14 @@ const aKeys = numbers.keys();
 console.log(aKeys.next());
 console.log(aKeys.next());
 console.log(aKeys.next());
+
+// values returns @@iterator
+
+/**
+ * Represents an iterator for array values.
+ * @type {Iterator<number>}
+ */
+const aValues = numbers.values();
+console.log(aValues.next());
+console.log(aValues.next());
+console.log(aValues.next());
