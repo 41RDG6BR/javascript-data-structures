@@ -191,3 +191,11 @@ const positiveNumbers = [1, 2, 3];
 const negativeNumbers = [-3, -2, -1];
 let numbersResult = negativeNumbers.concat(zero, positiveNumbers);
 
+/**
+ * Checks if a number is even.
+ * @param {number} x - The number to check.
+ * @returns {boolean} - True if the number is even, false otherwise.
+ */
+function isEven(x) {
+    return x % 2 === 0;
+}
