@@ -42,3 +42,17 @@ console.log(numbers);
 
 numbers.push(11);
 numbers.push(12, 13);
+
+// Insert element at the first position of the array
+
+/**
+ * Inserts a value at the beginning of the array.
+ * @param {any} value - The value to be inserted.
+ */
+Array.prototype.insertFirstPosition = function (value) {
+    for (let i = this.length; i >= 0; i--) {
+        this[i] = this[i - 1];
+    }
+
+    this[0] = value;
+}
