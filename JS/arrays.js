@@ -67,3 +67,12 @@ numbers.unshift(-4, -3);
 
 numbers.pop();
 
+// Removing element from the first position
+
+/**
+ * Remove the first position from the array.
+ */
+for (let i = 0; i < numbers.length; i++) {
+    console.log(numbers[i] = numbers[i + 1]);
+}
+
