@@ -308,3 +308,17 @@ const aValues = numbers.values();
 console.log(aValues.next());
 console.log(aValues.next());
 console.log(aValues.next());
+
+// Using the from method
+
+/**
+ * Represents a copy of the array using the from method.
+ * @type {number[]}
+ */
+let numbers2 = Array.from(numbers);
+
+/**
+ * Represents an array of even numbers using the from method.
+ * @type {number[]}
+ */
+let evens = Arrays.from(numbers, x => (x % 2 == 0));
