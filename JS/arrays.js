@@ -85,3 +85,20 @@ for (let i = 0; i < numbers.length; i++) {
 for (let i = 0; i < numbers.length; i++) {
     numbers[i] = numbers[i + 1];
 }
+
+/**
+ * Removes undefined elements from an array.
+ * @param {Array} myArray - The input array.
+ * @returns {Array} - A new array with undefined elements removed.
+ */
+Array.prototype.reIndex = function (myArray) {
+    const newArray = [];
+    for (let i = 0; i < myArray.length; i++) {
+        if (myArray[i] !== undefined) {
+            console.log(myArray[i]);
+            newArray.push(myArray[i]);
+        }
+    }
+    console.log(newArray);
+    return newArray;
+};
