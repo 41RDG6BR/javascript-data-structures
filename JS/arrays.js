@@ -32,3 +32,8 @@ for (let i = 2; i < 20; i++) {
 for (let i = 1; i < fibonacci.length; i++) {
     console.log(fibonacci[i]);
 }
+
+// Adding element to the end of the array
+
+numbers[numbers.length] = 10;
+console.log(numbers);
