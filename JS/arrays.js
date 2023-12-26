@@ -286,3 +286,14 @@ aEntries = numbers.entries();
 for (const n of aEntries) {
     console.log(n);
 }
+
+// key
+
+/**
+ * Represents an iterator for array keys.
+ * @type {Iterator<number>}
+ */
+const aKeys = numbers.keys();
+console.log(aKeys.next());
+console.log(aKeys.next());
+console.log(aKeys.next());
