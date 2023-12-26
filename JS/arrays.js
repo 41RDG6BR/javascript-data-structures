@@ -322,3 +322,23 @@ let numbers2 = Array.from(numbers);
  * @type {number[]}
  */
 let evens = Arrays.from(numbers, x => (x % 2 == 0));
+
+// Array.of
+
+/**
+ * Represents an array with a single element.
+ * @type {number[]}
+ */
+let numbers3 = Arrays.of(1);
+
+/**
+ * Represents an array with multiple elements.
+ * @type {number[]}
+ */
+let numbers4 = Arrays.of(1, 2, 3, 4, 5, 6);
+
+/**
+ * Represents a copy of the array using Array.of.
+ * @type {number[]}
+ */
+let numbersCopy = Array.of(...numbers4);
