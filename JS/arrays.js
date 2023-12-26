@@ -215,3 +215,10 @@ numbers.every(isEven);
  * @type {boolean}
  */
 numbers.some(isEven);
+
+// Iterate with forEach
+
+/**
+ * Executes a provided function once for each array element.
+ */
+numbers.forEach(x => console.log(x % 2 === 0));
