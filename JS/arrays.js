@@ -130,3 +130,26 @@ numbers.splice(5, 3);
 numbers.splice(5, 0, 2, 3, 4);
 
 numbers.splice(5, 3, 2, 3, 4);
+
+// Two-dimensional and multidimensional arrays
+
+/**
+ * Represents the average temperature for days.
+ * @type {number[][]}
+ */
+let averageTemp = [
+    [72, 75, 79, 79, 81, 81],
+    [81, 79, 75, 75, 73, 72]
+];
+
+/**
+ * Prints a matrix.
+ * @param {number[][]} averageTemp - The matrix to be printed.
+ */
+function printMatrix(averageTemp) {
+    for (let i = 0; i < averageTemp.length; i++) {
+        for (let j = 0; j < averageTemp[i].length; j++) {
+            console.log(averageTemp[i][j]);
+        }
+    }
+}
