@@ -64,4 +64,6 @@ console.log(stack);
 
 // Log the number of elements in the stack
 console.log(stack.size());
-console.log(stack);
+
+// Log the array of items in the stack
+console.log(stack.items);
