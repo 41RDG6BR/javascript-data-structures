@@ -67,3 +67,6 @@ console.log(stack.size());
 
 // Log the array of items in the stack
 console.log(stack.items);
+
+// Pop an element from the stack
+stack.pop();
