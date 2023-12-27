@@ -29,3 +29,8 @@ class Stack {
     peek() {
         return this.items[this.items.length - 1];
     }
+
+    // isEmpty method checks if the stack is empty
+    isEmpty() {
+        return this.items.length === 0;
+    }
