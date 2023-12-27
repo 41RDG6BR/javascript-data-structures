@@ -34,3 +34,8 @@ class Stack {
     isEmpty() {
         return this.items.length === 0;
     }
+
+    // size method returns the number of elements in the stack
+    size() {
+        return this.items.length;
+    }
