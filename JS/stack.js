@@ -5,3 +5,9 @@ class Stack {
         this.items = [];
         this.count = 0;
     }
+
+    // Push method adds an element to the stack
+    push(element) {
+        this.items[this.count] = element;
+        this.count++;
+    }
