@@ -58,4 +58,8 @@ console.log(stack.isEmpty());
 // Push elements onto the stack
 stack.push(5);
 stack.push(8);
+
+// Log the current state of the stack
+console.log(stack);
+
 console.log(stack);
