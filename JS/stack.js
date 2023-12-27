@@ -51,4 +51,8 @@ const stack = new Stack();
 
 // Log the initial state of the stack
 console.log(stack);
+
+// Check if the stack is empty (should return true)
+console.log(stack.isEmpty());
+
 console.log(stack);
