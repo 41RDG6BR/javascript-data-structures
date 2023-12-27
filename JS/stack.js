@@ -45,3 +45,6 @@ class Stack {
         this.items = [];
     }
 }
+
+// Create an instance of the Stack class
+const stack = new Stack();
