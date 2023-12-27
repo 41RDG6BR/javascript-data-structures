@@ -62,4 +62,6 @@ stack.push(8);
 // Log the current state of the stack
 console.log(stack);
 
+// Log the number of elements in the stack
+console.log(stack.size());
 console.log(stack);
