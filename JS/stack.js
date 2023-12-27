@@ -48,3 +48,7 @@ class Stack {
 
 // Create an instance of the Stack class
 const stack = new Stack();
+
+// Log the initial state of the stack
+console.log(stack);
+console.log(stack);
