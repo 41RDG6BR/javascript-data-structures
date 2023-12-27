@@ -55,4 +55,7 @@ console.log(stack);
 // Check if the stack is empty (should return true)
 console.log(stack.isEmpty());
 
+// Push elements onto the stack
+stack.push(5);
+stack.push(8);
 console.log(stack);
