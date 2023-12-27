@@ -24,3 +24,8 @@ class Stack {
         console.log(result);
         return result;
     }
+
+    // Peek method returns the last element without removing it
+    peek() {
+        return this.items[this.items.length - 1];
+    }
