@@ -11,3 +11,16 @@ class Stack {
         this.items[this.count] = element;
         this.count++;
     }
+
+    // Pop method removes and returns the last element from the stack
+    pop() {
+        // Check if the stack is empty
+        if (this.isEmpty()) {
+            return undefined;
+        }
+        this.count--;
+        const result = this.items[this.count];
+        delete this.items[this.count];
+        console.log(result);
+        return result;
+    }
