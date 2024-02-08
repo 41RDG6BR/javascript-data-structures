@@ -1,0 +1,21 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node JS/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/41RDG6BR/javascript2023.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/41RDG6BR/javascript2023/issues"
+  },
+  "homepage": "https://github.com/41RDG6BR/javascript2023#readme"
+}
