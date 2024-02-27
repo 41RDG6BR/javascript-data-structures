@@ -1,6 +1,6 @@
 import { insertionSort } from './insertionSort.js';
 
-function bucketSort(array, bucketSize = 5) {
+export function bucketSort(array, bucketSize = 5) {
     if (array.length < 2) {
         return array;
     }
