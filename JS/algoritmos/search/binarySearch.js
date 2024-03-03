@@ -1,5 +1,5 @@
 import { Compare, defaultCompare, lesserOrEquals } from "../../../util.js";
-import { quickSort } from '../quickSort.js';
+import { quickSort } from '../sorting/quickSort.js';
 
 const DOES_NOT_EXIST = -1;
 
