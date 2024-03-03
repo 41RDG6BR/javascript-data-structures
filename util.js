@@ -25,3 +25,27 @@ export function defaultCompare(a, b) {
 
     return a < b ? Compare.LESS_THAN : Compare.BIGGER_THAN;
 }
+
+export function lesserOrEquals(a, b, compareFn) {
+    const comp = compareFn(a, b);
+    return comp === Compare.LESS_THAN || comp === Compare.EQUALS;
+}
+
+export function biggerOrEquals(a, b, compareFn) {
+    const comp = compareFn(a, b);
+    return comp === Compare.BIGGER_THAN || comp === Compare.EQUALS;
+}
+
+export function defaultDiff(a, b) {
+    return Number(a) - Number(b);   
+}
+
+export function swap(array, a, b) {
+    /* const temp = array[a];
+    array[a] = array[b];
+    array[b] = temp; */
+    [array[a], array[b]] = [array[b], array[a]];
+}
+export function reverseCompare(compareFn) {
+    return (a, b) => compareFn(b, a);
+}
