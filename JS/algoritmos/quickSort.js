@@ -1,6 +1,6 @@
 import { Compare, defaultCompare } from '../../util.js';
 
-function quickSort(array, compareFn = defaultCompare) {
+export function quickSort(array, compareFn = defaultCompare) {
     return quick(array, 0, array.length - 1, compareFn);
 }
 
