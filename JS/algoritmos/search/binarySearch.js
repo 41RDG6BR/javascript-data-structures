@@ -1,4 +1,4 @@
-import { Compare, defaultCompare } from "../../../util.js";
+import { Compare, defaultCompare, lesserOrEquals } from "../../../util.js";
 import { quickSort } from '../quickSort.js';
 
 const DOES_NOT_EXIST = -1;
@@ -26,11 +26,6 @@ function binarySearch(array, value, compareFn = defaultCompare) {
 
     console.log(`${value} not found in the array`);
     return DOES_NOT_EXIST;
-}
-
-function lesserOrEquals(a, b, compareFn) {
-    const comp = compareFn(a, b);
-    return comp === Compare.LESS_THAN || comp === Compare.EQUALS;
 }
 
 const searchArray = [5, 4, 3, 2, 1];
